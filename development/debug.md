@@ -16,7 +16,7 @@ arguments:
 ---
 
 ## Usage
-`@debug.md <ERROR_DESCRIPTION>`
+`/debug.md <ERROR_DESCRIPTION>`
 
 ## Context
 - Error description: $ARGUMENTS
