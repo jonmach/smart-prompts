@@ -2,7 +2,7 @@
 name: optimize
 title: Performance Optimization Command
 description: A comprehensive prompt for leading a multi-role performance optimization process. Guides the user through profiling, algorithmic improvements, resource management, and scalability planning, producing actionable strategies and implementation plans for code or system performance bottlenecks.
-category: development
+category: quality-assurance
 tags: ["performance","optimization","profiling","scalability","resource-management"]
 difficulty: advanced
 author: Cline

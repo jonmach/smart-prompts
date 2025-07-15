@@ -2,7 +2,7 @@
 name: test
 title: Testing Strategy Command
 description: A comprehensive prompt for generating a testing strategy, implementation plan, and coverage analysis for a specified component or feature. Guides the user through test architecture, unit/integration test planning, and CI/CD integration.
-category: development
+category: quality-assurance
 tags: ["testing","strategy","ci-cd","unit-test","integration-test"]
 difficulty: intermediate
 author: user

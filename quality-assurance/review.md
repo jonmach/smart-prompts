@@ -2,7 +2,7 @@
 name: review
 title: Code Review Command
 description: A comprehensive code review prompt that coordinates four specialist reviewers (Quality Auditor, Security Analyst, Performance Reviewer, Architecture Assessor) to analyze code quality, security, performance, and architecture. Produces actionable feedback, recommendations, and an action plan.
-category: development
+category: quality-assurance
 tags: ["code-review","quality","security","performance","architecture"]
 difficulty: intermediate
 author: user

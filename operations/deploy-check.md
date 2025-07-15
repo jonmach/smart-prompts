@@ -2,7 +2,7 @@
 name: deploy-check
 title: Deployment Readiness Command
 description: A comprehensive deployment readiness prompt that coordinates QA, Security, Operations, and Risk specialists to assess, validate, and plan deployments. Produces a readiness report, risk analysis, deployment plan, monitoring strategy, and next actions for any deployment target.
-category: development
+category: operations
 tags: ["deployment","readiness","devops","risk","qa"]
 difficulty: intermediate
 author: user

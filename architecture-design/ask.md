@@ -2,7 +2,7 @@
 name: ask
 title: Architecture Consultation Command
 description: Provides expert architectural consultation and strategic guidance for technical questions and system design challenges. Orchestrates four specialized advisors (Systems Designer, Technology Strategist, Scalability Consultant, Risk Analyst) to deliver high-level recommendations, technology choices, risk analysis, and implementation strategies. Use for architecture-level questions; for implementation details, use @code.md.
-category: development
+category: architecture-design
 tags: ["architecture","consultation","system-design","strategy","guidance"]
 difficulty: advanced
 author: user
