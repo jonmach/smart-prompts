@@ -18,7 +18,7 @@ arguments:
 ask.md - Architecture Consultation Command
 
 ## Usage
-`@ask.md <TECHNICAL_QUESTION>`
+`/ask.md <TECHNICAL_QUESTION>`
 
 ## Context
 - Technical question or architecture challenge: $ARGUMENTS
