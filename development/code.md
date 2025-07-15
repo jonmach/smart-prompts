@@ -16,7 +16,7 @@ arguments:
 ---
 
 ## Usage
-`@code.md <FEATURE_DESCRIPTION>`
+`/code.md <FEATURE_DESCRIPTION>`
 
 ## Context
 - Feature/functionality to implement: $ARGUMENTS
