@@ -1,6 +1,6 @@
 ---
 name: review-code-quality
-title: Code Analysis Agent Prompt
+title: Code Analysis and Feedback Prompt
 description: Prompt for reviewing code quality and providing mentoring feedback to junior developers
 category: development
 tags: ["code-review","mentoring","quality", "teaching"]
