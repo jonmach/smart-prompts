@@ -31,19 +31,21 @@ Product Requirements Document: {{prd}}
 IMPLEMENTATION PHASE:
 
 Do deep analysis of the proposed solution and write a report detailing the following:
-## Overview and Purpose
-## What the App Does and Its Effectiveness
-## Potential Effectiveness Over the App's Lifetime
-# Pros and Cons
-# Recommendations for Improvement
+<ul>
+<li>Overview and Purpose</li>
+<li>What the App Does and Its Effectiveness</li>
+<li>Potential Effectiveness Over the App's Lifetime</li>
+<li>Pros and Cons</li>
+<li>Recommendations for Improvement</li>
 [Including any gaps in the requirements]
-# Alternatives to Consider
-# Futurespective
+<li>Alternatives to Consider</li>
+<li>Futurespective</li>
 [What are some potential issues users might face using this product a few years from now?]
-# Benefits
+<li>Benefits</li>
 [What could be the overall benefits to an organisation who adopts this product?]
-# Costs
+<li>Costs</li>
 [What are some of the possible costs of adoption]
+</ul>
 
 The report should be in a single, downloadable file using markdown formatting.
 
