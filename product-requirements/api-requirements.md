@@ -35,15 +35,18 @@ For each endpoint provide:
 ## Input Details
 
 ### Operations Scope
-This should include API operastions needed, CRUD, bulk operations, search, file uploads etc.<p>
+This should include API operastions needed, CRUD, bulk operations, search, file uploads etc.
+
 {{operations}}
 
 ### Data Model
-This should include data model/schema and include any relationships and consraints<p>
+This should include data model/schema and include any relationships and consraints
+
 {{data_model}}
 
 ### Special Requirements (Optional)
-This could include for example, any authentication, rate limiting, version, performance constraints.<p>
+This could include for example, any authentication, rate limiting, version, performance constraints.
+
 {{special_requirements}}
 
 ## Output Format
