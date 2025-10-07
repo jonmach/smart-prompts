@@ -1,23 +1,32 @@
 ---
 name: user_story_creation
 title: User Story Creation
-description: Creates detailed user story documents in markdown format for UK Government software delivery teams. Follows GDS Design System standards and produces BDD scenarios with acceptance criteria. Designed for business analysts working with functional and technical audiences.
+description: Creates detailed user story documents in markdown format for UK Government software delivery teams. Follows GOV.UK standards, GDS Design System, and includes acceptance criteria, interface design, and technical specifications.
 category: product-requirements
-tags: ["user-story","bdd","requirements","gov-uk","government","gds","acceptance-criteria"]
+tags: ["user-story","requirements","gov-uk","gds","accessibility","bdd","acceptance-criteria"]
 difficulty: intermediate
-author: Cline User
+author: Jon
 version: 1.0
-created: 2025-10-07T08:23:18.933Z
-updated: 2025-10-07T08:23:18.933Z
+created: 2025-10-07T08:42:08.183Z
+updated: 2025-10-07T08:42:08.183Z
 arguments:
+  - name: acceptance_criteria
+    description: Behaviour driven development scenario defining the acceptance criteria
+    required: true
+  - name: interface_design
+    description: User interface design following GOV.UK guidelines, GDS Design System, and Accessibility standards
+    required: true
+  - name: technical_design
+    description: Functionality defined in technical detail
+    required: true
   - name: context
-    description: Background information about the application or feature being developed. Include details about existing systems, GOV.UK standards requirements, and any relevant constraints.
+    description: Context about the application, e.g. adding to an existing application with details about standards to follow (GOV.UK, GDS components, accessibility guidelines)
     required: true
   - name: requirements
-    description: Detailed functional and technical requirements for each feature to be implemented. Include specific behaviors, constraints, and expected outcomes.
+    description: Detailed requirements for each feature, including functional and technical details
     required: true
-  - name: apis
-    description: API dependencies and specifications. Include endpoints, request/response formats, and any relevant technical details about external services or integrations.
+  - name: dependencies
+    description: Details of APIs or other dependencies, including endpoints and data structures
     required: false
 ---
 
@@ -37,17 +46,18 @@ Think step by step and explain your thinking before producing the markdown file.
 
 The format and content of the user story must be as follows:
 
-User Story:
-[User story summary in "AS A, I WANT, SO THAT" format. This must be functional and must omit technical details]
+User Story summary, which will be provided in the format "As a..., I want... so that..."
 
 Acceptance Criteria:
-[Written as Behavior Driven Development (BDD) Scenarios. The BDD scenarios should focus more on functional/user-driven actions. Omit technical details. Group functionality so that we keep the number of scenarios to a minimum]
+
+{{acceptance_criteria}}
 
 Interface Design:
-[Relevant user interface design. This is a GOV.UK Application so it should follow GOV.UK guidelines including the GDS Design System and Accessibility. Ensure you include the GDS Components needed for the interface]
+
+{{interface_design}}
 
 Technical Design:
-[The functionality defined in technical detail. Include the API Responses as examples from below]
+{{technical_design}}
 
 ---
 
@@ -59,9 +69,9 @@ Technical Design:
 
 {{requirements}}
 
-## APIS
+## Dependencies
 
-{{apis}}
+{{dependencies}}
 
 # Verification Checklist
 - If needed, you have asked any follow up questions to clear up any ambiguities.
