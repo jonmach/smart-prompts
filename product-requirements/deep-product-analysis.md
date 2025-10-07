@@ -31,9 +31,9 @@ Product Requirements Document: {{prd}}
 IMPLEMENTATION PHASE:
 
 Do deep analysis of the proposed solution and write a report detailing the following:
-# Overview and Purpose
-# What the App Does and Its Effectiveness
-# Potential Effectiveness Over the App's Lifetime
+## Overview and Purpose
+## What the App Does and Its Effectiveness
+## Potential Effectiveness Over the App's Lifetime
 # Pros and Cons
 # Recommendations for Improvement
 [Including any gaps in the requirements]
