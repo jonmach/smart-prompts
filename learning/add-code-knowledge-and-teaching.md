@@ -1,7 +1,7 @@
 ---
 name: add_code_knowledge_and_teaching
 title: Add Code Knowledge and Teaching
-description: Enhanced teaching guidelines for junior developers. Provides comprehensive code explanations with the 'why' behind decisions, explores alternatives, discusses edge cases, and includes interactive pop quizzes for active learning.
+description: Enhanced teaching guidelines for junior developers. Provides comprehensive code explanations with the 'why' behind decisions, explores alternatives, discusses edge cases, and includes interactive pop quizzes for active learning.  The prompt below can be added into the “User Rules” in your vibe coding environment (e.g. GHCP/ClaudeCode/Cursos) so that the IDE will include these learning rules into every new prompt.
 category: learning
 tags: ["teaching","learning","junior-developers","education","mentoring"]
 difficulty: beginner
