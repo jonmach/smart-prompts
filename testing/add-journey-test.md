@@ -2,7 +2,7 @@
 name: add_journey_test
 title: Add Journey Test
 description: Create a comprehensive Playwright journey test based on a user story. This prompt guides the creation of BDD-style tests with proper selectors, accessibility scanning, and adherence to Playwright best practices. Includes analysis and implementation phases with specific focus on page structure, component relationships, and real application testing (no mocks).
-category: quality-assurance
+category: testing
 tags: ["playwright","testing","journey-test","bdd","accessibility","e2e"]
 difficulty: intermediate
 author: Cline
