@@ -2,7 +2,7 @@
 name: add_api_unit_tests
 title: Add API Unit Tests
 description: Analyze a Product Requirements Document (PRD) and create comprehensive unit tests for the described features. This prompt guides the creation of journey-focused tests using Given-When-Then patterns, with proper mocking of external dependencies and coverage of both happy and unhappy paths. Includes execution and debugging of tests.
-category: quality-assurance
+category: testing
 tags: ["api","unit-testing","testing","mocking","tdd","prd"]
 difficulty: intermediate
 author: Cline
